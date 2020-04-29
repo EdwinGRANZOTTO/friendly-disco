@@ -1,5 +1,10 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600");
+/* @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600"); */
+/* @import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap"); */
+@font-face {
+  font-family: Enchanted Land;
+  src: url(Enchanted_Land.otf);
+}
 
 /*
 	Snapshot by TEMPLATED
@@ -16,6 +21,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		/* font-family: 'MedievalSharp', cursive; */
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1395,6 +1401,7 @@
 
 	#nav {
 		background: #0d1217;
+		background-image: ("/var/www/html/Perso/foodTruck-Aurelien/assets/images/background_nav.JPEG");
 		z-index: 10002;
 		position: relative;
 		width: 4em;
